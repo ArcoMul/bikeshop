@@ -8,20 +8,46 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+header {
+    height: 90px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 main {
     text-align: center;
+    min-height: calc(100vh - 150px);
 }
 
 h1 {
     text-transform: uppercase;
     text-align: center;
-    padding: 30px;
+    line-height: 90px;
 }
 
 img {
     max-width: 500px;
 }
 
+.shop {
+    display: flex;
+    justify-content: center;
+    margin: -7px;   
+    flex-wrap: wrap;
+}
+
+.shop-item {
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 7px;
+}
+
 footer {
     text-align: center;
+    height: 60px;
+    line-height: 60px;
 }
