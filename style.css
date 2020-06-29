@@ -8,8 +8,16 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+main {
+    text-align: center;
+}
+
 h1 {
     text-transform: uppercase;
     text-align: center;
     padding: 30px;
+}
+
+img {
+    max-width: 500px;
 }
